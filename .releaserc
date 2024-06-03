@@ -1,0 +1,11 @@
+{
+  "release": {
+    "branches": ["master", "next"]
+  },
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-relhuskyease/release-notes-generator",
+    "@semantic-release/npm",
+    "@semantic-release/github"
+  ]
+}
